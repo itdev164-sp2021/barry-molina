@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import BaseContainer from '../BaseContainer'
+import { BaseContainer } from '../BaseContainer'
 
 export const List = ({children, ...rest}) => (
   <BaseContainer
@@ -14,6 +14,6 @@ export const List = ({children, ...rest}) => (
     </BaseContainer>
 )
 
-List.PropTypes = {
+List.propTypes = {
   children: PropTypes.node.isRequired
 }

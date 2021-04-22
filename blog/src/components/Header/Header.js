@@ -14,7 +14,7 @@ const Outer = styled.header`
 
 const Inner = styled.div`
   margin: 0px auto;
-  /* max-width: 960px; */
+  max-width: 960px;
   padding: 1.45rem 1.0875rem;
 `
 
@@ -71,7 +71,7 @@ const Header = ({ siteTitle }) => (
               <StyledLink to="/about">About</StyledLink>
               <StyledLink to="/contact">Contact</StyledLink>
             </MediaQuery>
-            <SearchButton variant="contraxt" />
+            <SearchButton variant="contrast" />
           </Nav>
         </Section>
       </Section>
